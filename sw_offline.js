@@ -18,8 +18,7 @@ self.addEventListener('fetch' , event => {
          <title>MendozaLopezRicardoIsaac</title>
       </head>
       <body>        
-        <h1> Bienvenido a nuestra pagina web
-          para usarla, necesita coneccion a internet </h1>
+        <h1> Hola, necesitas conectarte a la red para poder disfrutar del contenido </h1>
       </body>
     </html>        
   ,{
