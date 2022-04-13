@@ -13,10 +13,10 @@ self.addEventListener('install', event => {
 
   caches.open('box').then( cache =>{
 
-    //cache.add('/index.html');
-    //cache.add('/about.html');
+    cache.add('/index.html');
+    cache.add('/about.html');
 
-    //cache.addAll([ '/index.html', '/about.html', '/portfolio.html' ]);
+    cache.addAll([ '/index.html', '/about.html', '/portfolio.html' ]);
 
     cache.addAll(contentToCache);
 
